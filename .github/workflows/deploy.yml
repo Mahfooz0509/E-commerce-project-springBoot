@@ -44,5 +44,5 @@ jobs:
       - name: Deploy to Kubernetes
         run: |
           helm upgrade --install jtproject ./jtproject-chart \
-            --set image.repository=<dockerhub-username>/jtproject \
+            --set image.repository=mahfooz0509/jtproject \
             --set image.tag=latest
