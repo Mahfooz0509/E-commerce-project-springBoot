@@ -1,13 +1,13 @@
 replicaCount: 1
 
 image:
-  repository: <dockerhub-username>/jtproject
+  repository: mahfooz0509/jtproject
   tag: latest
   pullPolicy: IfNotPresent
 
 service:
   type: ClusterIP
-  port: 8080
+  port: 9091
 
 resources:
   limits:
